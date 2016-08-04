@@ -2,8 +2,9 @@
   "manifest_version": 2,
 
   "name": "fusidebar",
+  "short_name": "fu",
   "description": "no, really, ƒ$çk you, jira sidebar.",
-  "version": "0.1",
+  "version": "0.1.1",
 
   "permissions": [
     "activeTab"
@@ -15,5 +16,7 @@
   "browser_action": {
     "default_title": "fusidebar",
     "default_icon": "fu.png"
-   }
+   },
+
+   "incognito": "not_allowed"
 }
